@@ -1,16 +1,21 @@
 header {
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
-    background-color: #2A2A2A;
+    background-color: #1a1a1a;
     color: #F2F2F2;
     padding: 10px;
 
     font-family: Arial;
     letter-spacing: 4px;
     font-style: italic;
+}
+
+h4{
+    margin-top: -38px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #afafaf;
 }
 
 body {
@@ -22,11 +27,13 @@ div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 img {
     border-radius: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 h3 {
@@ -42,17 +49,20 @@ h3 {
     border-radius: 20px/20px;
     margin-left: 20px;
     font-family: Arial;
-    font-style: italic;
 }
 
 a {
-    color: #007bff;
+    color: #4497f0;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
+a:hover{
+    color: #f04444;
+}
+
 footer {
-    background-color: #2A2A2A;
+    background-color: #1a1a1a;
     color: #F2F2F2;
     text-align: center;
     bottom: 0;
