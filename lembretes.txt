@@ -1,1 +1,16 @@
 pasta fotos: 10 fotos
+colocar relatório da visita técnica e as fotos
+
+no dia 9 de agosto, nós alunos do curso de informática fomos até o IFRO Campus Colorado do Oeste
+
+Projeto Camera Escura, Silagem, Judo, IFRO Mobile
+
+código javascript html com miniatura da foto e abre a galeria
+
+fazer como uma galeria que aança, volta, expande a fotografia
+
+clicar e ampliar a foto
+
+fazer estilo revista
+
+visita.html
