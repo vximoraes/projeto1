@@ -1,2 +1,1 @@
-1- Colocar imagens dos restaurantes.
-2- Colocar borda nos links.
+pasta fotos: 10 fotos
