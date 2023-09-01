@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    font-family: Arial;
+    letter-spacing: 4px;
+    font-style: italic;
+    margin-bottom: 50px;
+    background: linear-gradient(135deg, #5C7A29, #A3B86C);
+}
+
+.campus {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.gallery-description {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    max-width: 1483px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+}
+
+div p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1483px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+}
+
+.thumbnail {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+    border-radius: 10px 20px 30px 40px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+}
+
+.modal-image {
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.modal-buttons button {
+    padding: 5px 24%;
+    border: none;
+    background-color: #5C7A29;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.modal-buttons button:hover {
+    background-color: #A3B86C;
+    transition: 300ms linear;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background: linear-gradient(-135deg, #5C7A29, #A3B86C);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
